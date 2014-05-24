@@ -1,5 +1,9 @@
 # Site settings
 name: Raúl Ricardo Amaya Sánchez
+me:
+  first_name: Raúl
+  middle_name: Ricardo
+  last_name: Amaya Sánchez
 title: Raúl Amaya's site
 email: raulricardo21@gmail.com
 description: "This is Raúl Amaya's site. Frontend developer."
@@ -12,3 +16,9 @@ permalinks: pretty
 sass:
   style: :compressed
   sass_dir: _sass
+
+# Custom
+links:
+  github: https://github.com/raulricardo
+  googleplus: https://plus.google.com/u/0/+Ra%C3%BAlRicardoAmayaS%C3%A1nchez
+  twitter: http://twitter.com/raulricard0

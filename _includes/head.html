@@ -12,6 +12,7 @@
   <meta name="description" content="{{ site.description }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
 
+  <!-- TODO: Turn favicons into include file and query favicon to clean cache -->
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="196x196" href="/favicon-196.png">
@@ -33,6 +34,8 @@
 
   <!-- Custom CSS -->
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
   <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/debug.css" | prepend: site.baseurl }}">
