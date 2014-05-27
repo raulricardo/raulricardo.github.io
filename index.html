@@ -1,12 +1,14 @@
 ---
 layout: home
-greeting: Hello, I'm Raúl Ricardo Amaya and I'm a frontend developer and this is
-  a very long string for testing purposes
+abbrev: RRAS
 ---
 
-<div class="home">
-
-  <h1>{{ site.name }}</h1>
-  <p>{{ page.greeting }}</p>
-
-</div>
+<!-- <h1>{{ site.name }}</h1> -->
+<h1 class="home-title">
+  Hi, my name is <br>
+  <span>{{ site.me.first_name }}</span>
+</h1>
+<img class="avatar" src="{{ "/assets/images/avatar.jpg" | prepend: site.baseurl }}"/>
+<p>
+  I'm a frontend developer, a web comic lover, a rss addict
+</p>
