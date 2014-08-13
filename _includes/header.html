@@ -1,9 +1,15 @@
-<header class="site-header">
-
+<div class="site-header">
   <div class="wrap">
-
     <!-- <a href="{{site.baseurl}}">{{page.abbrev}}</a> -->
+    <img
+      class="speech-balloon"
+      src="{{ "/assets/images/speech_balloon.svg" | prepend: site.baseurl }}"/>
 
+    <header>
+      <h1 class="header-title">
+        <span>_</span>
+        {{ site.me.header_name }}
+      </h1>
+    </header>
   </div>
-
-</header>
+</div>
