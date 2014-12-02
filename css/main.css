@@ -1,0 +1,65 @@
+html, body {
+  height: 100%; }
+
+body {
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  background-color: #1f2227;
+  background-image: url("../assets/images/background.jpg");
+  background-size: 44px;
+  color: #ced3f8; }
+
+.home-title span {
+  font-size: 2em; }
+
+.page-content {
+  width: 100%; }
+  .page-content p {
+    font-size: 1.5em; }
+  .page-content .avatar {
+    max-width: 80%;
+    height: auto; }
+
+.page-content .wrap, .site-footer .wrap {
+  margin: 0 auto;
+  max-width: 80%; }
+
+.site-footer a {
+  font-size: 3em;
+  text-decoration: none; }
+  .site-footer a .text {
+    display: none; }
+.site-footer .wrap {
+  text-align: center; }
+  .site-footer .wrap .credits {
+    text-align: right; }
+
+.site-header {
+  background-color: #f2f2f2;
+  min-height: 3em;
+  text-align: center; }
+  .site-header .header-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    color: #13b1db;
+    font-size: 3.438em;
+    margin: 0; }
+    .site-header .header-title span {
+      color: #f35835; }
+  .site-header .speech-balloon {
+    margin: auto; }
+  .site-header .wrap {
+    padding: 2em 0.5em; }
+
+@media screen and (min-width: 768px) {
+  .page-content {
+    text-align: center; }
+
+  .site-footer a {
+    font-size: 2em; }
+    .site-footer a .text {
+      display: inline; }
+  .site-footer .wrap .credits {
+    bottom: 3em;
+    position: absolute;
+    right: 2em; } }
